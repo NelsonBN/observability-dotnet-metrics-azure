@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: technobre/demo-app
+    container_name: demo-app
+    ports:
+      - 8080:8080
